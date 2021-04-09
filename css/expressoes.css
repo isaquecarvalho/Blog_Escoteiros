@@ -1,0 +1,26 @@
+/* Expressões regulares
+Tipos de expressões:
+= : Saber se algo é exatamente igual a outro
+^= : Inicia com "images/"
+$= : Termina com
+*= : Contém 
+ */
+ 
+ /* Exatamente igual (=) */
+ 
+ img[src = "images/bin.jpg"]{
+	 border-radius: 80%;
+ }
+ 
+ /* Inicia com (^=) */
+ a[href ^= "A/"]{
+	 color: orange;
+ }
+ 
+  a[href ^= "B/"]{
+	 color: pink;
+ }
+ 
+  a[href ^= "C/"]{
+	 color: lightblue;
+ }
