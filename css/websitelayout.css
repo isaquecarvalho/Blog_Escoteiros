@@ -1,49 +1,41 @@
 /*Cabeçalho*/
 header{
 	background-color: #BF5D43;
+	width: 400;
+	height: 300;
 	text-align: center;
 	padding: 10px; /*gera espaço ao redor do elemento*/
 	color: white;
 }
 
-/*Barra de navegação*/
-/*definindo uma barra de navegação para o topo do site*/
-.topnav{
-	overflow: hidden; /*lida com elementos muito grandes para a area*/
-	background-color: orange;
+.titles{
+	background-color:rgb(134, 48, 48);
+	padding: 15px;
+	height: 100%;
 }
 
-/*Formatando links descendentes da barra de navegação*/
-.topnav a{
-	float: left; /*alinha a flutuação do elemento*/
-	text-align: center;
-	padding: 14px 20px;/*espaçamento entre os elementos acima e abaixo*/
-	text-decoration: none;/*Remove decoração de underline do link*/
+.h3{
+	font-style: normal;
 }
 
-/*Os links trocam de cor quando o mouse está em cima*/
-.topnav a:hover{
-	background-color: #43BFBF;
-	color:#f2f2f2;
+/*Div principal
+.leftSide{
+
+	float:left;
 }
-/*Div principal*/
-.column{
-	background-color: #009999;
-	color:white;
-	height: 80%;
-}
-/*Coluna esquerda e direita*/
-.side{
+
+/*Coluna esquerda e direita
+.rightSide{
 	width: 25%;
-	float:left;
+	float:right;
 }
-/*Coluna Principal*/
+Coluna Principal
 .middle{
-	width: 50%;
+	width: 25% 
 	float:left;
-
 }
-/*Rodapé*/
+
+
 .footer{
 	background-color: #BF5D43;
 	text-align: center;
