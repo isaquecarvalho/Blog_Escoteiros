@@ -17,10 +17,34 @@ header{
 .h3{
 	font-style: normal;
 }
+/*Div principal*/
+.column{
+	background-color: #009999;
+	color:white;
+	height: 80%;
+}
+/*Coluna esquerda e direita*/
+.side{
+	width: 25%;
+	float:left;
+}
+/*Coluna Principal*/
+.middle{
+	width: 50%;
+	float:left;
 
-/*Div principal
+}
+
+
+
+
+
+
+
+
+/* 
+/*Coluna esquerda e direita
 .leftSide{
-
 	float:left;
 }
 
@@ -29,15 +53,15 @@ header{
 	width: 25%;
 	float:right;
 }
-Coluna Principal
+/*Coluna esquerda e direita 
 .middle{
 	width: 25% 
 	float:left;
 }
-
-
+*/
 .footer{
 	background-color: #BF5D43;
 	text-align: center;
 	padding: 20px;
 }
+
